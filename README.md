@@ -2,11 +2,6 @@
 
 Ghost is a free, open, simple blogging platform. Visit the project's website at <http://ghost.org>, or read the docs on <http://support.ghost.org>.
 
-[![GitHub issues](https://img.shields.io/github/issues/SNathJr/ghost-on-heroku)](https://github.com/SNathJr/ghost-on-heroku/issues)
-[![GitHub forks](https://img.shields.io/github/forks/SNathJr/ghost-on-heroku)](https://github.com/SNathJr/ghost-on-heroku/network)
-[![GitHub stars](https://img.shields.io/github/stars/SNathJr/ghost-on-heroku)](https://github.com/SNathJr/ghost-on-heroku/stargazers)
-[![Deploy to Heroku](https://img.shields.io/badge/deploy%20to-heroku-6762a6)](https://heroku.com/deploy)
-
 ## Disclaimer
 
 This is a fork with some improvements from https://github.com/cobyism/ghost-on-heroku. I have forked and improved this repository as the original developer seemed to have abandoned his repo recently. In this repository I have upgraded ghost to ghost 3.X and added cloudinary as a free storage alternative to amazon's s3. If you are still interested with the ghost 1.0 version please visit the original repository.
@@ -26,7 +21,7 @@ The latest release of Ghost is now supported! Changes include:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-If the above button does not work for you, disable anything that might be blocking Heroku from inferring the referrer (e.g. Brave shield), or try this: https://heroku.com/deploy?template=https://github.com/snathjr/ghost-on-heroku (if you're using a fork, make sure to point the template link to your repo).
+If the above button does not work for you, disable anything that might be blocking Heroku from inferring the referrer (e.g. Brave shield), or try this: https://heroku.com/deploy?template=https://github.com/aditya-shri/ghost-on-heroku (if you're using a fork, make sure to point the template link to your repo).
 
 **NOTE**: we do _not_ support deploying by downloading the source file or by copying over a cloned folder. Downloading/copying folders tends to break symlinks, so we recommend that you deploy by clicking the button in this repository or your fork on GitHub.
 
@@ -179,9 +174,7 @@ If you're worried about packages beyond the root `ghost` server being outdated, 
 ## Problems?
 
 If you have problems using your instance of Ghost, you should check the [official documentation](http://support.ghost.org/) or
-open an issue on [the official issue tracker](https://github.com/TryGhost/Ghost/issues). If you discover an issue with the
-deployment process provided by _this repository_, then [open an issue here](https://github.com/snathjr/ghost-on-heroku).
-
+open an issue on [the official issue tracker](https://github.com/TryGhost/Ghost/issues).
 ## License
 
 Released under the [MIT license](./LICENSE), just like the Ghost project itself.
